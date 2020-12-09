@@ -1,0 +1,29 @@
+.table {
+  width: 747px;
+  height: 312px;
+
+  border-collapse: collapse;
+  border: 1px solid #808080;
+
+  &__title {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 29px;
+    color: #fff;
+
+    background-color: #005aff;
+  }
+
+  &__item {
+    width: 248px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+
+    border: 1px solid #808080;
+  }
+
+  &__row {
+    height: 48px;
+  }
+}

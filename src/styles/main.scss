@@ -1,7 +1,48 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "./general.scss";
+@import "./header.scss";
+@import "./table.scss";
+@import "./footer.scss";
+@import "./registration.scss";
+@import "./course.scss";
 
-body {
-  background: $c-gray;
+.main {
+  &__table {
+    margin: 126px auto 306px;
+  }
+
+  &__registration {
+    position: absolute;
+    top: 193px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  &__course {
+    position: absolute;
+    top: 193px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  &__btn {
+    width: 124px;
+    height: 41px;
+    float: right;
+
+    background-color: #59adff;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__block {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%,0);
+
+    width: 747px;
+    height: 41px;
+  }
 }

@@ -3,11 +3,70 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Курс Валют</title>
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+    <header class="header">
+      <div class="header__container">
+        <p class="header__logo"></p>
+
+        <h1 class="header__title">Всегда актуальные курсы валют</h1>
+
+        <button class="header__btn">Войти</button>
+      </div>
+    </header>
+    <main class="main">
+      <table class="main__table table">
+        <tr>
+          <td colspan="3" class="table__title">Последнее обновление: 01.07.2020</td>
+        </tr>
+
+        <tr>
+          <th class="table__item">Исходная валюта</th>
+
+          <th class="table__item">Целевая валюта</th>
+
+          <th class="table__item">Курс</th>
+        </tr>
+
+        <tr>
+          <td class="table__item">EUR</td>
+
+          <td class="table__item">USD</td>
+
+          <td class="table__item">0.88</td>
+        </tr>
+
+        <tr>
+          <td class="table__item">RUR</td>
+
+          <td class="table__item">USD</td>
+
+          <td class="table__item">71.69</td>
+        </tr>
+
+        <tr>
+          <td class="table__item">RUR</td>
+
+          <td class="table__item">UAH</td>
+
+          <td class="table__item">2.62</td>
+        </tr>
+
+        <tr>
+          <td class="table__item">RUR</td>
+
+          <td class="table__item">ZHV</td>
+
+          <td class="table__item">2.62</td>
+        </tr>
+      </table>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">(с) Все права защищены</p>
+    </footer>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>
